@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+	<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="style.css">
+		<script src="script.js"></script>
+		<title>Document</title>
+	</head>
+	<body>
+		<table class="Table">
+			<thead>
+				<tr>
+					<th>Info</th>
+					<th>Database</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<th>First</th>
+					<td id="dbfirst"></td>
+				</tr>
+				<tr>
+					<th>Last</th>
+					<td id="dblast"></td>
+				</tr>
+				<tr>
+					<th>Gender</th>
+					<td id="dbgen"></td>
+				</tr>
+				<tr>
+					<th>ID </th>
+					<td id="dbid"></td>
+				</tr>
+				<tr>
+					<th>Today</th>
+					<td id="today"></td>
+				</tr>
+				</tr>
+			</tbody>
+		</table>
+		<br>
+		<table class="Table">
+			<thead>
+				<tr>
+					<th>Info</th>
+					<th>Passport</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<th>First</th>
+					<td id="firstname"></td>
+				</tr>
+				<tr>
+					<th>Last</th>
+					<td id="lastname"></td>
+				</tr>
+				<tr>
+					<th>Gender</th>
+					<td id="gender"></td>
+				</tr>
+				<tr>
+					<th>ID </th>
+					<td id="id"></td>
+				</tr>
+				<tr>
+					<th>Exp.</th>
+					<td id="expire"></td>
+				</tr>
+				</tr>
+			</tbody>
+		</table>
+		<br>
+		<label for="denydd">Reason for denial: </label><select id="denydd">
+			<option value="none" selected hidden>None</option>
+			<option value="fname">First name</option>
+			<option value="lname">Last name</option>
+			<option value="sex">Gender</option>
+			<option value="id">ID</option>
+			<option value="exp">Expired</option>
+		</select><br>
+		<button id="yes">Allow</button>&nbsp;<button id="no">Deny</button>
+	</body>
+</html>
